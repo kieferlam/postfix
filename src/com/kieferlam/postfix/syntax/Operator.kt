@@ -12,7 +12,7 @@ abstract class Operator(val numberOfParameters: Int, val symbol: String) : Expre
 
     companion object {
         
-        val PRECISION = 12
+        val PRECISION = 100
         val CONTEXT = MathContext(PRECISION, RoundingMode.HALF_UP)
         
         val PLUS = PlusOperator()
