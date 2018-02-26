@@ -60,6 +60,6 @@ Operand result = Postfix.evaluate(postfix);
 ### Kotlin
 ```Kotlin
 val infix = Postfix.scan("5/(4+2)")
-val postfix = Postfix.toPostfix("")
+val postfix = Postfix.toPostfix(infix)
 val result = Postfix.evaluate(postfix)
 ```
