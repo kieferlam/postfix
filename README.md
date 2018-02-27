@@ -35,6 +35,33 @@ val result = Postfix.evaluate(myExpression)
 val value = result.value
 ```
 
+## Operators
+
+1. \+ Plus
+2. \- Minus
+3. \- UnaryMinus
+4. \* Multiply
+5. / Divide
+6. ^ Exponent
+7. () Brackets
+8. % Modulus
+9. Functions
+    1. sqrt() Square Root
+    2. Trigonometry
+        1. sin() Sine
+        2. cos() Cosine
+        3. tan() Tangent
+        4. asin() Inverse Sine
+        5. acos() Inverse Cosine
+        6. atan() Inverse Tangent
+    3. rad() Radians
+    4. deg() Degrees
+    5. abs() Absolute Value
+    6. ceil() Ceiling
+    7. floor() Floor
+    8. round() Round
+
+
 # Under the hood
 ## Expression
 The `Expression` class inherits `ArrayList<ExpressionEntity>` so you'll be able to use all the default methods present in `ArrayList` such as `ArrayList<T>.add(T)`. This means you'll also be able to iterate through the `Expression` like a regular `ArrayList`. 
